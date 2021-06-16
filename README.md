@@ -40,6 +40,7 @@ After learning basic monolithic backend development, I was looking for a course 
 Here's what I learnt:
 * Express backend with Typescript and two different database (MongoDB, Redis)
 * Next.js (React) based frontend for Server-side Rendering
+* Sharing events across the services using NATS-streaming
 * Running the app in Docker containers via Kubernetes cluster
 
 This project is no way finished and I will add more features and tools as I learn new languages, frameworks and databases. Read the roadmap below to know what I am going to implement next. 
@@ -95,6 +96,7 @@ You will need Docker, Kubernetes, Skaffold and ingress-nginx installed to run th
 - [x] API Documentation with Postman
 - [ ] Updating the Next.js frontend with getServerSideProps
 - [ ] More documentation with TSdoc
+- [ ] Migrate to JetStream
 - [ ] Services with Go and PostgreSQL
 
 ## Contact
